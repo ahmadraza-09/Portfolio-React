@@ -3,11 +3,16 @@ const Maincomp = () => {
   return (
     <>
     {/* Hero Section */}
-    <div class="hero-section">
+
+    <a href="#back-to-top" className="back-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <div class="hero-section" id="back-to-top">
         <div class="hero-left">
             <div class="text-container">
-                <h3 data-aos="fade-right" data-aos-anchor-placement="top-bottom">Hi I'm</h3>
-                <h1 data-aos="fade-right" data-aos-anchor-placement="top-bottom">Ahmad Raza</h1>
+                <h3>Hi I'm</h3>
+                <h1>Ahmad Raza</h1>
                 <span class="text first-text">I'm a</span>
                 <span class="text second-text">Freelancer</span>
                 <span class="text third-text"></span>
@@ -16,14 +21,14 @@ const Maincomp = () => {
             </div>
 
             <br/>
-            <div class="hire-resume" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
-                <a href="#contact-us"><button>Hire Me</button></a>
-                <a href="#"><button>Resume</button></a>
+            <div class="hire-resume">
+                <button>Hire Me</button>
+                <a href="images/favicon.io" download={'Resume'}><button type="button">Resume</button></a>
             </div>
         </div>
 
         <div class="hero-right">
-            <img src="images/hero-right-img.png" alt="" data-aos="fade-left" data-aos-anchor-placement="top-bottom"/>
+            <img src="images/hero-right-img.png" alt=""/>
         </div>
     </div>
 
@@ -214,31 +219,31 @@ const Maincomp = () => {
         <br/>
 
         <div class="project-boxes" >
-            <div class="project-box" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
-                <a href="https://mariyamsmall.netlify.app/" target="_blank"><img src="images/mariyam's-mall.png" alt=""/></a>
+            <div class="project-box">
+                <a href="https://mariyamsmall.netlify.app/" rel="noreferrer" target="_blank"><img src="images/mariyam's-mall.png" alt=""/></a>
                 <br/>
-                <a href="https://mariyamsmall.netlify.app/" target="_blank"><h4>Live Preview</h4></a>
+                <a href="https://mariyamsmall.netlify.app/" rel="noreferrer" target="_blank"><h4>Live Preview</h4></a>
                 <h3>Mariyam's Mall</h3>
             </div>
 
             <div class="project-box" data-aos="fade-left" data-aos-anchor-placement="top-bottom">
-                <a href="https://ahmadraza-09.github.io/Amazon-Clone/" target="_blank"><img src="images/amazon.png" alt=""/></a>
+                <a href="https://ahmadraza-09.github.io/Amazon-Clone/" rel="noreferrer" target="_blank"><img src="images/amazon.png" alt=""/></a>
                 <br/>
-                <a href="https://ahmadraza-09.github.io/Amazon-Clone/" target="_blank"><h4>Live Preview</h4></a>
+                <a href="https://ahmadraza-09.github.io/Amazon-Clone/" rel="noreferrer" target="_blank"><h4>Live Preview</h4></a>
                 <h3>Amazon Clone</h3>
             </div>
 
             <div class="project-box" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
-                <a href="https://ahmadraza-09.github.io/Amazon-Clone/" target="_blank"><img src="images/amazon.png" alt=""/></a>
+                <a href="https://ahmadraza-09.github.io/Amazon-Clone/" rel="noreferrer" target="_blank"><img src="images/amazon.png" alt=""/></a>
                 <br/>
-                <a href="https://ahmadraza-09.github.io/Amazon-Clone/" target="_blank"><h4>Live Preview</h4></a>
+                <a href="https://ahmadraza-09.github.io/Amazon-Clone/" rel="noreferrer" target="_blank"><h4>Live Preview</h4></a>
                 <h3>Amazon Clone</h3>
             </div>
 
             <div class="project-box" data-aos="fade-left" data-aos-anchor-placement="top-bottom">
-                <a href="https://mariyamsmall.netlify.app/" target="_blank"><img src="images/mariyam's-mall.png" alt=""/></a>
+                <a href="https://mariyamsmall.netlify.app/" rel="noreferrer" target="_blank"><img src="images/mariyam's-mall.png" alt=""/></a>
                 <br/>
-                <a href="https://mariyamsmall.netlify.app/" target="_blank"><h4>Live Preview</h4></a>
+                <a href="https://mariyamsmall.netlify.app/" rel="noreferrer" target="_blank"><h4>Live Preview</h4></a>
                 <h3>Mariyam's Mall</h3>
             </div>
         </div>

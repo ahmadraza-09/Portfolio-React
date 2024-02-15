@@ -15,6 +15,25 @@ body {
     /* overflow-x: hidden;  */
 }
 
+.back-to-top {
+    width: 40px;
+    height: 40px;
+    background-color: #FDCA65;
+    position: sticky;
+    top: 480px;
+    left: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 55px;
+}
+
+.back-to-top i {
+    color: #000;
+    font-size: 25px;
+    font-weight: 800;
+}
+
 .flex-div {
     display: flex;
     align-items: center;
@@ -64,6 +83,7 @@ nav i:last-child {
 .logo-section a {
     font-size: 1.8rem;
     font-weight: 800;
+    cursor: pointer;
 }
 
 .content-section {
@@ -71,6 +91,7 @@ nav i:last-child {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    font-weight: 600;
 }
 
 .content-section i {
@@ -82,6 +103,7 @@ nav i:last-child {
 .content-section a:hover {
     color: #c7c3c3;
     transition: 0.1s;
+    cursor: pointer;
 }
 
 .content-section a:first-child {
@@ -126,6 +148,10 @@ nav i:last-child {
     color: #fff;
 }
 
+.text.second-text {
+    margin-left: 10px;
+}
+
 .text.second-text:before {
     content: "";
     position: absolute;
@@ -163,12 +189,23 @@ nav i:last-child {
 }
 
 .hire-resume button {
-    width: 70px;
+    width: 80px;
+    height: 20px;
     cursor: pointer;
     font-weight: 700;
     border: none;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+}
+
+.hire-resume button:hover {
+    background-color: #111111;
+    color: #fff;
+}
+
+.hire-resume button:last-child {
+    margin-left: 10px;
 }
 
 /* About Me */
@@ -340,7 +377,7 @@ nav i:last-child {
     height: fit-content;
     background-color: #111111;
     border-radius: 40px;
-    align-items: start;
+    align-items: flex-start;
     justify-content: space-around;
     color: #fff;
 }
