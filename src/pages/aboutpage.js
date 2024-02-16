@@ -1,5 +1,6 @@
 import Aboutcomp from "../components/aboutcomp";
 import Headercomp from "../components/headercomp";
+import Footercomp from "../components/footercomp";
 import "../aboutpage.css";
 
 const Aboutpage = () => {
@@ -18,6 +19,7 @@ const Aboutpage = () => {
     <>
       {<Headercomp/>}
       {<Aboutcomp/>}
+      {<Footercomp/>}
     </>
   )
 }

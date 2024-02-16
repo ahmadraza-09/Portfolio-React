@@ -1,5 +1,6 @@
 import Headercomp from "../components/headercomp";
 import Maincomp from "../components/maincomp";
+import Footercomp from "../components/footercomp";
 
 const Homepage = () => {
 
@@ -7,6 +8,7 @@ const Homepage = () => {
     <>
       {<Headercomp/>}
       {<Maincomp/>}
+      {<Footercomp/>}
     </>
   )
 }

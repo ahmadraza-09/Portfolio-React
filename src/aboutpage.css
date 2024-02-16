@@ -108,12 +108,14 @@
 
 .what-i-am {
     width: 95%;
-    height: 600px;
+    height: fit-content;
     background-color: #111;
     border-radius: 40px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
 }
 
 .what-i-am .skills-box {

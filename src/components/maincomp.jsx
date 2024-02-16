@@ -4,10 +4,6 @@ const Maincomp = () => {
     <>
     {/* Hero Section */}
 
-    <a href="#back-to-top" className="back-to-top">
-        <i className="fa-solid fa-arrow-up"></i>
-    </a>
-
     <div className="hero-section" id="back-to-top">
         <div className="hero-left">
             <div className="text-container">
