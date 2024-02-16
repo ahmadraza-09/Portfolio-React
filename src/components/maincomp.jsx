@@ -5,39 +5,39 @@ const Maincomp = () => {
     {/* Hero Section */}
 
     <a href="#back-to-top" className="back-to-top">
-        <i class="fa-solid fa-arrow-up"></i>
+        <i className="fa-solid fa-arrow-up"></i>
     </a>
 
-    <div class="hero-section" id="back-to-top">
-        <div class="hero-left">
-            <div class="text-container">
+    <div className="hero-section" id="back-to-top">
+        <div className="hero-left">
+            <div className="text-container">
                 <h3>Hi I'm</h3>
                 <h1>Ahmad Raza</h1>
-                <span class="text first-text">I'm a</span>
-                <span class="text second-text">Freelancer</span>
-                <span class="text third-text"></span>
-                <span class="text fourth-text"></span>
-                <span class="text fifth-text"></span>
+                <span className="text first-text">I'm a</span>
+                <span className="text second-text">Freelancer</span>
+                <span className="text third-text"></span>
+                <span className="text fourth-text"></span>
+                <span className="text fifth-text"></span>
             </div>
 
             <br/>
-            <div class="hire-resume">
+            <div className="hire-resume">
                 <button>Hire Me</button>
                 <a href="images/favicon.io" download={'Resume'}><button type="button">Resume</button></a>
             </div>
         </div>
 
-        <div class="hero-right">
+        <div className="hero-right">
             <img src="images/hero-right-img.png" alt=""/>
         </div>
     </div>
 
     {/* About Me */}
-    <div class="about-me">
+    <div className="about-me">
 
-        <div class="about-me-content">
+        <div className="about-me-content">
             <h3>About Me</h3>
-            <div class="line"></div>
+            <div className="line"></div>
             <br/>
             <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                 I'm Creative Director and UI/UX Designer from Delhi, India, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
@@ -50,36 +50,36 @@ const Maincomp = () => {
         <br/>
         <br/>
 
-        <div class="work">
+        <div className="work">
             <h3>What I'm Doing</h3>
-            <div class="line"></div>
+            <div className="line"></div>
             <br/>
             <br/>
-            <div class="work-boxes">
-                <div class="work-box flex-div" data-aos="fade-right" data-aos-anchor-placement="center-bottom">
+            <div className="work-boxes">
+                <div className="work-box flex-div" data-aos="fade-right" data-aos-anchor-placement="center-bottom">
                     <img src="images/web design.png" alt=""/>
-                    <div class="work-box-text">
+                    <div className="work-box-text">
                         <h3>Web Design</h3>
                         <p>The most modern and high-quality design made at a professional level.</p>
                     </div>
                 </div>
-                <div class="work-box flex-div" data-aos="fade-left" data-aos-anchor-placement="center-bottom">
+                <div className="work-box flex-div" data-aos="fade-left" data-aos-anchor-placement="center-bottom">
                     <img src="images/web development.png" alt=""/>
-                    <div class="work-box-text">
+                    <div className="work-box-text">
                         <h3>Web Development</h3>
                         <p>High-quality development of sites at the professional level.</p>
                     </div>
                 </div>
-                <div class="work-box flex-div" data-aos="fade-right" data-aos-anchor-placement="center-bottom">
+                <div className="work-box flex-div" data-aos="fade-right" data-aos-anchor-placement="center-bottom">
                     <img src="images/mobile apps.png" alt=""/>
-                    <div class="work-box-text">
+                    <div className="work-box-text">
                         <h3>Mobile Apps</h3>
                         <p>Professional development of applications for iOS and Android.</p>
                     </div>
                 </div>
-                <div class="work-box flex-div" data-aos="fade-left" data-aos-anchor-placement="center-bottom">
-                    <i class="fa-solid fa-photo-film"></i>
-                    <div class="work-box-text">
+                <div className="work-box flex-div" data-aos="fade-left" data-aos-anchor-placement="center-bottom">
+                    <i className="fa-solid fa-photo-film"></i>
+                    <div className="work-box-text">
                         <h3>Video Editing</h3>
                         <p>The most modern and high-quality videos made at a professional level.</p>
                     </div>
@@ -89,13 +89,13 @@ const Maincomp = () => {
     </div>
 
     {/* Education */}
-    <div class="education">
+    <div className="education">
         <h3>Education</h3>
-        <div class="line"></div>
+        <div className="line"></div>
         <br/>
         <br/>
-        <div class="board-section" data-aos="fade-right" data-aos-anchor-placement="center-bottom">
-            <div class="img-text flex-div">
+        <div className="board-section" data-aos="fade-right" data-aos-anchor-placement="center-bottom">
+            <div className="img-text flex-div">
                 <img src="images/jac logo.png" alt=""/>
                 <h3>10th JAC Board</h3>
             </div>
@@ -104,8 +104,8 @@ const Maincomp = () => {
             <h4>&bull; Marks — 81.20%</h4>
         </div>
         <br/>
-        <div class="board-section" data-aos="fade-right" data-aos-anchor-placement="center-bottom">
-            <div class="img-text flex-div">
+        <div className="board-section" data-aos="fade-right" data-aos-anchor-placement="center-bottom">
+            <div className="img-text flex-div">
                 <img src="images/jac logo.png" alt=""/>
                 <h3>12th JAC Board</h3>
             </div>
@@ -114,8 +114,8 @@ const Maincomp = () => {
             <h4>&bull; Marks — 71%</h4>
         </div>
         <br/>
-        <div class="graduation-section" data-aos="fade-right" data-aos-anchor-placement="center-bottom">
-            <div class="img-text flex-div">
+        <div className="graduation-section" data-aos="fade-right" data-aos-anchor-placement="center-bottom">
+            <div className="img-text flex-div">
                 <img src="images/ccsu logo.png" alt=""/>
                 <h3>BCA — Chaudhary Charan Singh University</h3>
             </div>
@@ -126,24 +126,24 @@ const Maincomp = () => {
         <br/>
         <br/>
 
-        <div class="experience">
+        <div className="experience">
             <h3>Experience</h3>
-            <div class="line"></div>
+            <div className="line"></div>
             <h4 data-aos="fade-up" data-aos-anchor-placement="center-bottom">I'm a Fresher</h4>
         </div>
 
     </div>
 
     {/* My Skills */}
-    <div class="my-skills">
-        <div class="skills-text">
+    <div className="my-skills">
+        <div className="skills-text">
             <h3>My Skills</h3>
-            <div class="line"></div>
+            <div className="line"></div>
         </div>
         <br/>
         <br/>
-        <div class="skills-mobile" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-            <div class="skill-box" >
+        <div className="skills-mobile" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <div className="skill-box" >
                 <img src="images/html.png" alt=""/>
                 <br/>
                 <div id="number9">
@@ -151,7 +151,7 @@ const Maincomp = () => {
                 </div>
                 <h3>HTML</h3>
             </div>
-            <div class="skill-box">
+            <div className="skill-box">
                 <img src="images/css.png" alt=""/>
                 <br/>
                 <div id="number10">
@@ -159,7 +159,7 @@ const Maincomp = () => {
                 </div>
                 <h3>CSS</h3>
             </div>
-            <div class="skill-box">
+            <div className="skill-box">
                 <img src="images/bootstrap.png" alt=""/>
                 <br/>
                 <div id="number11">
@@ -167,7 +167,7 @@ const Maincomp = () => {
                 </div>
                 <h3>Bootstrap</h3>
             </div>
-            <div class="skill-box">
+            <div className="skill-box">
                 <img src="images/javascript.png" alt=""/>
                 <br/>
                 <div id="number12">
@@ -175,7 +175,7 @@ const Maincomp = () => {
                 </div>
                 <h3>JavaScript</h3>
             </div>
-            <div class="skill-box">
+            <div className="skill-box">
                 <img src="images/node-js.png" alt=""/>
                 <br/>
                 <div id="number13">
@@ -183,7 +183,7 @@ const Maincomp = () => {
                 </div>
                 <h3>Node JS</h3>
             </div>
-            <div class="skill-box">
+            <div className="skill-box">
                 <img src="images/react-js.png" alt=""/>
                 <br/>
                 <div id="number14">
@@ -191,7 +191,7 @@ const Maincomp = () => {
                 </div>
                 <h3>React JS</h3>
             </div>
-            <div class="skill-box">
+            <div className="skill-box">
                 <img src="images/express-js.png" alt=""/>
                 <br/>
                 <div id="number15">
@@ -199,7 +199,7 @@ const Maincomp = () => {
                 </div>
                 <h3>Express JS</h3>
             </div>
-            <div class="skill-box">
+            <div className="skill-box">
                 <img src="images/mongo-db.png" alt=""/>  
                 <br/>
                 <div id="number16">
@@ -210,37 +210,37 @@ const Maincomp = () => {
         </div>
     </div>
 
-    <div class="my-projects" id="projects">
-        <div class="project-text">
+    <div className="my-projects" id="projects">
+        <div className="project-text">
             <h3>My Projects</h3>
-            <div class="line"></div>
+            <div className="line"></div>
         </div>
         <br/>
         <br/>
 
-        <div class="project-boxes" >
-            <div class="project-box">
+        <div className="project-boxes" >
+            <div className="project-box">
                 <a href="https://mariyamsmall.netlify.app/" rel="noreferrer" target="_blank"><img src="images/mariyam's-mall.png" alt=""/></a>
                 <br/>
                 <a href="https://mariyamsmall.netlify.app/" rel="noreferrer" target="_blank"><h4>Live Preview</h4></a>
                 <h3>Mariyam's Mall</h3>
             </div>
 
-            <div class="project-box" data-aos="fade-left" data-aos-anchor-placement="top-bottom">
+            <div className="project-box" data-aos="fade-left" data-aos-anchor-placement="top-bottom">
                 <a href="https://ahmadraza-09.github.io/Amazon-Clone/" rel="noreferrer" target="_blank"><img src="images/amazon.png" alt=""/></a>
                 <br/>
                 <a href="https://ahmadraza-09.github.io/Amazon-Clone/" rel="noreferrer" target="_blank"><h4>Live Preview</h4></a>
                 <h3>Amazon Clone</h3>
             </div>
 
-            <div class="project-box" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
+            <div className="project-box" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
                 <a href="https://ahmadraza-09.github.io/Amazon-Clone/" rel="noreferrer" target="_blank"><img src="images/amazon.png" alt=""/></a>
                 <br/>
                 <a href="https://ahmadraza-09.github.io/Amazon-Clone/" rel="noreferrer" target="_blank"><h4>Live Preview</h4></a>
                 <h3>Amazon Clone</h3>
             </div>
 
-            <div class="project-box" data-aos="fade-left" data-aos-anchor-placement="top-bottom">
+            <div className="project-box" data-aos="fade-left" data-aos-anchor-placement="top-bottom">
                 <a href="https://mariyamsmall.netlify.app/" rel="noreferrer" target="_blank"><img src="images/mariyam's-mall.png" alt=""/></a>
                 <br/>
                 <a href="https://mariyamsmall.netlify.app/" rel="noreferrer" target="_blank"><h4>Live Preview</h4></a>
@@ -250,10 +250,10 @@ const Maincomp = () => {
     </div>
 
     {/* Contact Us */}
-    <div class="contact-us" id="contact-us">
-        <div class="project-text">
+    <div className="contact-us" id="contact-us">
+        <div className="project-text">
             <h3>Contact Us</h3>
-            <div class="line"></div>
+            <div className="line"></div>
         </div>
         <br/>
 

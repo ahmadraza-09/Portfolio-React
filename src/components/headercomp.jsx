@@ -8,14 +8,14 @@ const Headercomp = () => {
     <>
     <nav>
 
-        <div class="logo-section" >
+        <div className="logo-section" >
             <a onClick={() => {navigate('/')}}>Ahmad Raza</a>
         </div>
         
         <input type="checkbox" id="check"/>
 
-        <div class="content-section">
-            <label for="check" class="close-menu"><i class="fa-solid fa-xmark"></i></label>
+        <div className="content-section">
+            <label for="check" className="close-menu"><i className="fa-solid fa-xmark"></i></label>
             <a onClick={() => {navigate('/')}}>Home</a>
             <a onClick={() => {navigate('/about')}}>About</a>
             <a onClick={() => {navigate('/resume')}}>Resume</a>
@@ -24,7 +24,7 @@ const Headercomp = () => {
             <a onClick={() => {navigate('/contact')}}>Contact</a>
         </div>
 
-        <label for="check"><i class="fa-solid fa-bars"></i></label>
+        <label for="check"><i className="fa-solid fa-bars"></i></label>
 
     </nav>
     </>
