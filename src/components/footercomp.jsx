@@ -14,10 +14,10 @@ const Footercomp = () => {
         </div>
 
         <ul className="menu-section">
-            <li>Home</li>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Blog</li>
+            <li onClick={() => {navigate('/')}}>Home</li>
+            <li onClick={() => {navigate('/about')}}>About</li>
+            <li onClick={() => {navigate('/projects')}}>Projects</li>
+            <li onClick={() => {navigate('/blog')}}>Blog</li>
         </ul>
 
         <ul className="menu-section">
