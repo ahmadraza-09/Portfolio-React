@@ -66,8 +66,9 @@ nav {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-nav a {
+nav li {
     color: #fff;
+    list-style: none;
 }
 
 nav i:last-child {
@@ -79,7 +80,7 @@ nav i:last-child {
     width: 30%;
 }
 
-.logo-section a {
+.logo-section li {
     font-size: 1.8rem;
     font-weight: 800;
     cursor: pointer;
@@ -99,7 +100,7 @@ nav i:last-child {
     cursor: pointer;
 }
 
-.content-section a {
+.content-section li {
     width: fit-content;
     height: fit-content;
     padding: 8px;
@@ -108,16 +109,16 @@ nav i:last-child {
     transition: all 0.2s ease-in-out;
 }
 
-.content-section a:hover {
+.content-section li:hover {
     background-color: #fff;
     color: #000;
 }
 
-.content-section a:first-child {
+.content-section li:first-child {
     color: #FDCA65;
 }
 
-.content-section a:first-child:hover {
+.content-section li:first-child:hover {
     color: #FDCA65;
 }
 
@@ -131,7 +132,7 @@ nav i:last-child {
     height: 450px;
     background-color: #111111;
     margin-left: 2.5%;
-    margin-top: 50px;
+    margin-top: 100px;
     border-radius: 40px;
     display: flex;
     align-items: center;
@@ -152,34 +153,6 @@ nav i:last-child {
 
 .text-container .text.first-text {
     color: #fff;
-}
-
-.text.second-text {
-    margin-left: 10px;
-}
-
-.text.second-text:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #111111;
-    border-left: 2px solid #FDCA65;
-    animation: animate 4s steps(12) infinite;
-}
-
-@keyframes animate {
-
-    40%,
-    60% {
-        left: calc(100% + 4px);
-    }
-
-    100% {
-        left: 0%;
-    }
 }
 
 .hero-left h3 {
@@ -754,10 +727,11 @@ form button {
     width: 300px;
 }
 
-.footer .logo-section a{
+.footer .logo-section li{
     font-weight: 800;
     cursor: pointer;
     color: #fff;
+    list-style: none;
 }
 
 .footer .menu-section {

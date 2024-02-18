@@ -13,7 +13,6 @@
     
 }
 
-
 /* Max-Width : 1024px */
 @media (max-width: 1024px) {
     
@@ -69,10 +68,6 @@
         width: 400px;
     }
 
-    /* .about-me {
-        height: 1460px;
-    } */
-
     .work-box {
         width: 280px;
         height: 140px;
@@ -93,6 +88,18 @@
     .skill-box h3,
     .skill-box div {
         font-size: 20px;
+    }
+
+    .education {
+        height: 700px;
+    }
+
+    .img-text {
+        width: 30%;
+    }
+
+    .graduation-section .img-text {
+        width: 65%;
     }
 
 }
@@ -181,7 +188,7 @@
     /* Education */
 
     .education {
-        height: 700px;
+        height: 650px;
     }
 
     .board-section {
@@ -266,6 +273,7 @@
     }
 
 }
+
 /* Max-Width : 700px */
 @media (max-width: 700px) {
 
@@ -297,6 +305,10 @@
 
     .about-me-content p {
         padding-right: 0px;
+    }
+
+    .about-me {
+        height: 920px;
     }
 
 }
@@ -370,6 +382,55 @@
     
     .project-box h3 {
         font-size: 18px;
+    }
+
+    /* Footer */
+    .footer {
+        height: fit-content;
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+        padding: 20px 0px;
+    }
+
+    .footer .logo-section {
+        padding-left: 20px;
+    }
+
+    .footer .logo-section a {
+        font-size: 30px;
+    }
+
+    .footer .logo-section p {
+        font-size: 20px;
+    }
+    
+    .footer .menu-section,
+    .footer .logo-section {
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+        padding-bottom: 20px;
+    }
+    
+    .footer .menu-section li {
+        font-size: 25px;
+    }
+    
+    .footer .menu-section:last-child {
+        border: none;
+        padding-left: 20px;
+    }
+
+    .footer .menu-section:last-child h2 {
+        font-size: 30px;
+    }
+
+    .footer .menu-section:last-child p {
+        font-size: 20px;
+    }
+
+    .footer .menu-section:last-child .social {
+        font-size: 35px;
     }
 
 }
@@ -780,7 +841,7 @@
     }
     
     .about-me {
-        height: 1180px;
+        height: 1080px;
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -800,7 +861,7 @@
     /* Project Box */
 
     .my-projects {
-        padding-left: 10px;
+        padding-left: 20px;
         padding-right: 10px;
     }
 
@@ -842,6 +903,22 @@
         text-align: center;
         justify-content: center;
     } 
+
+    .footer .logo-section a {
+        font-size: 22px;
+    }
+
+    .footer .logo-section p {
+        font-size: 14px;
+    }
+
+    .footer .menu-section li {
+        font-size: 14px;
+    }
+
+    .menu-section .social a {
+        font-size: 25px;
+    }
 
 }
 

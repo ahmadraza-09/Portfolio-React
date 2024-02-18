@@ -2,6 +2,7 @@ import Aboutcomp from "../components/aboutcomp";
 import Headercomp from "../components/headercomp";
 import Footercomp from "../components/footercomp";
 import "../aboutpage.css";
+import "../aboutresponsive.css";
 
 const Aboutpage = () => {
 

@@ -3,7 +3,7 @@ import Maincomp from "../components/maincomp";
 import Footercomp from "../components/footercomp";
 
 const Homepage = () => {
-
+    
   return (
     <>
       {<Headercomp/>}

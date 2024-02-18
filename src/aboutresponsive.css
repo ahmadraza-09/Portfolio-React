@@ -1,0 +1,107 @@
+/* Max-Width : 1024px */
+@media (max-width: 1024px) {
+    .about-container {
+        margin-top: 70px;
+        height: fit-content;
+    }
+
+    .what-i-am {
+        row-gap: 40px;
+    }
+
+}
+
+/* Max-Width : 900px */
+@media (max-width: 900px) {
+
+    .about-content-text {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+}
+
+/* Max-Width : 700px */
+@media (max-width: 700px) {
+    .about-head .about-head-pasion {
+        gap: 20px;
+    }
+}
+
+/* Max-Width : 628px */
+@media (max-width: 628px) {
+
+    .about-content {
+        height: fit-content;
+    }
+
+    .about-content .profile-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .profile-img img {
+        width: 100%;
+    }
+
+    .about-head .about-head-pasion {
+        width: 100%;
+        font-size: 18px;
+        row-gap: 0px;
+        column-gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .about-content-text p {
+        font-size: 20px;
+    }
+
+    .social-media-links {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 180px;
+        padding-top: 20px;
+    }
+}
+
+/* Max-Width : 430px */
+@media (max-width: 430px) {
+
+    .about-content {
+        height: fit-content;
+    }
+
+    .about-head .about-head-pasion {
+        font-size: 12px;
+    }
+
+    .about-content-text p {
+        font-size: 14px;
+    }
+}
+
+/* Max-Width : 320px */
+@media (max-width: 320px) {
+    .social-media-links {
+        padding-left: 200px;
+    }
+
+    .about-head h1 {
+        font-size: 22px;
+    }
+
+    .about-head .about-head-pasion {
+        font-size: 10px;
+        gap: 0px 20px;
+    }
+
+    .about-content-text p{
+        height: fit-content;
+        font-size: 12px;
+    }
+
+    .what-i-am .skills-box {
+        height: fit-content;
+    }
+
+}

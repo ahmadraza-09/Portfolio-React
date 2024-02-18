@@ -1,19 +1,19 @@
+import React from 'react';
+import Typewritercomp from '../components/typewritercomp';
 
 const Maincomp = () => {
+
   return (
     <>
     {/* Hero Section */}
-
     <div className="hero-section" id="back-to-top">
         <div className="hero-left">
             <div className="text-container">
                 <h3>Hi I'm</h3>
                 <h1>Ahmad Raza</h1>
                 <span className="text first-text">I'm a</span>
-                <span className="text second-text">Freelancer</span>
-                <span className="text third-text"></span>
-                <span className="text fourth-text"></span>
-                <span className="text fifth-text"></span>
+                <span className="text second-text">{<Typewritercomp/>}</span>
+
             </div>
 
             <br/>
