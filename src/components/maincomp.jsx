@@ -19,7 +19,7 @@ const Maincomp = () => {
             <br/>
             <div className="hire-resume">
                 <button>Hire Me</button>
-                <a href="images/favicon.io" download={'Resume'}><button type="button">Resume</button></a>
+                <a href="images/favicon.io" download={'Images/Ahmad-Raza-Resume.pdf'}><button type="button">Resume</button></a>
             </div>
         </div>
 
